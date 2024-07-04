@@ -5,22 +5,22 @@ import { View, Text, TextInput, TouchableOpacity, StyleSheet, ImageBackground } 
 export default function LoginScreen({ }) {
   return (
     <ImageBackground 
-      source={{ uri: 'https://thumbs.dreamstime.com/z/row-colorful-holographic-displays-glass-countertop-electronics-store-holographic-product-display-electronics-321730083.jpg?ct=jpeg' }} 
+      source={{ uri: 'https://images.unsplash.com/photo-1639452127871-8c6ea78d2b11?q=80&w=2130&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }} 
       style={styles.background}
     >
       <View style={styles.container}>
-        <Text style={styles.title}>Mercanto</Text>
+        <Text style={styles.title}>MerCanto</Text>
         <Text style={styles.subtitle}>
           Shop smarter, live better with Mercanto.
         </Text>
         <TextInput 
           placeholder="Email" 
-          placeholderTextColor="#aaa" 
+          placeholderTextColor="#fffdfd" 
           style={styles.input} 
         />
         <TextInput 
           placeholder="Password" 
-          placeholderTextColor="#aaa" 
+          placeholderTextColor="#ffffff" 
           secureTextEntry 
           style={styles.input} 
         />
@@ -52,14 +52,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {
-    fontSize: 32,
+    fontSize: 50,
     fontWeight: 'bold',
     color: '#fff',
     marginBottom: 20,
   },
   subtitle: {
-    fontSize: 16,
-    color: '#fff',
+    fontSize: 18,
+    color: '#d0cbb7',
     textAlign: 'center',
     marginBottom: 40,
   },
