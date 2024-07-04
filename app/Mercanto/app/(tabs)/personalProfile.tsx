@@ -26,7 +26,7 @@ const ProfileScreen: React.FC = () => {
         <MenuItem icon="create" title="Create Request" />
         <MenuItem icon="document" title="Privacy Policy" />
         <MenuItem icon="settings" title="Settings" />
-        <MenuItem icon="log-out" title="Log out" />
+        <MenuItem icon="log-out" title="Log out" /> 
       </View>
     </View>
   );
@@ -73,6 +73,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: '#eee',
   },
+  
   menuItemText: {
     fontSize: 18,
     marginLeft: 20,
