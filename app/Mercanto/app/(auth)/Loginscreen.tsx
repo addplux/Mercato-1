@@ -9,7 +9,7 @@ export default function LoginScreen({ }) {
       style={styles.background}
     >
       <View style={styles.container}>
-        <Text style={styles.title}>MerCanto</Text>
+        <Text style={styles.title}>Mercanto</Text>
         <Text style={styles.subtitle}>
           Shop smarter, live better with Mercanto.
         </Text>
